@@ -31,6 +31,104 @@
 					</p>
 				</section>
 
+				<section>
+					<h2>OCaml Features</h2>
+					<ul>
+						<li>Static type system</li>
+						<li>Type inference</li>
+						<li>Pattern matching</li>
+						<li>Expressive type definitions</li>
+						<li>First-class functions</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Tools - OPAM</h2>
+					<ul>
+						<li>Source-based package manager</li>
+						<li>git/http backends</li>
+						<li>Easy to create repos for testing and installing your own packages</li>
+						<li>Easy to try out new compilers</li>
+					</ul>
+					<p><a href="http://opam.ocaml.org/">opam.ocaml.org</a></p>
+				</section>
+
+				<section>
+					<h2>Tools - utop</h2>
+					<ul>
+						<li>User-friendly REPL</li>
+						<li>Tab-completion</li>
+						<li>readline support</li>
+						<li>Much more user-friendly than the standard OCaml toplevel!</li>
+					</ul>
+					<p>opam install utop</p>
+					<p><a href="https://github.com/diml/utop">github.com/diml/utop</a></p>
+				</section>
+
+				<section>
+					<h2>Tools - IOCaml</h2>
+					<ul>
+						<li>OCaml mode for IPython</li>
+						<li>REPL in a web browser, with embedded markdown</li>
+						<li>Used to display the code samples in this presentation</li>
+					</ul>
+					<p>opam install iocaml</p>
+					<p><a href="https://github.com/andrewray/iocaml">github.com/andrewray/iocaml</a></p>
+				</section>
+
+				<section>
+					<h2>Tools - Merlin</h2>
+					<ul>
+						<li>Code completion and type lookup engine</li>
+						<li>Plugins for vim, emacs</li>
+					</ul>
+					<p>opam install merlin</p>
+					<p><a href="https://github.com/the-lambda-church/merlin">github.com/the-lambda-church/merlin</a></p>
+					<p><a href="http://anil.recoil.org/2013/10/03/merlin-and-vim.html">vim installation instructions</a></p>
+				</section>
+
+				<section>
+					<h2>Libraries - Unix</h2>
+					<p>Functions for handling:
+					<ul>
+						<li>Files</li>
+						<li>Pipes</li>
+						<li>Sockets (unix/network)</li>
+						<li>Processes</li>
+						<li>etc...</li>
+					</ul>
+					<p><a href="http://caml.inria.fr/pub/docs/manual-ocaml/libref/Unix.html">INRIA docs</a></p>
+					<p><a href="http://pleac.sourceforge.net/pleac_ocaml/sockets.html">Sockets examples</a></p>
+				</section>
+
+				<section>
+					<h2>Libraries - Sys</h2>
+					<ul>
+						<li>Access to command-line arguments</li>
+						<li>Signal handling</li>
+						<li>Filesystem operations</li>
+					</ul>
+					<p><a href="http://caml.inria.fr/pub/docs/manual-ocaml/libref/Sys.html">INRIA docs</a></p>
+				</section>
+
+				<section>
+					<h2>Libraries - stdext</h2>
+					<p>Citrix's extensions to the OCaml standard library</p>
+					<ul>
+						<li>Stringext, Listext, Unixext, etc...</li>
+						<li>We'd like to deprecate it eventually, but it's used all over our legacy code.</li>
+					</ul>
+					<p><a href="https://github.com/xapi-project/xen-api-libs/tree/master/stdext">Github link</a></p>
+				</section>
+
+				<section>
+					<h2>Libraries - rpclib</h2>
+					<ul>
+						<li>Create RPC marshalling functions from types</li>
+						<li>Create RPC client and server modules from interfaces</li>
+					</ul>
+					<p><a href="https://github.com/samoht/ocaml-rpc">github.com/samoht/ocaml-rpc</a></p>
+				</section>
 			</div>
 
 		</div>
