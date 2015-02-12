@@ -13,5 +13,5 @@ cp -r iocaml/profile/* ~/.config/ipython/profile_iocaml/
 To run:
 
 ```
-ipython notebook --profile=iocaml
+ipython notebook --profile=iocaml notebooks/
 ```
